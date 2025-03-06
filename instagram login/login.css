@@ -1,5 +1,5 @@
 * {
-    margin: 3px;
+    margin: 8px;
 }
 
 #mainHolder {
@@ -18,6 +18,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 220px;
+    padding: 20px;
+    border: 2px solid rgba(128, 128, 128, 20%);
+    border-radius: 10px;
+}
+
+#signup-holder {
+    width: 260px;
+    text-align: center;
+    border: 2px solid rgba(128, 128, 128, 20%);
+    border-radius: 7px;
+}
+
+#input-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-input {
+    margin: 2px;
+    padding: 5px;
+    width: 200px;
+    border: 1.5px solid rgba(128, 128, 128, 20%);
+    border-radius: 5px;
 }
 
 #instagram_logo {
