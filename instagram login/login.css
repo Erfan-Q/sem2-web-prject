@@ -41,10 +41,24 @@
     margin: 2px;
     padding: 5px;
     width: 200px;
+    height: 30px;
     border: 1.5px solid rgba(128, 128, 128, 20%);
     border-radius: 5px;
 }
 
 #instagram_logo {
     max-width: 150px;
+}
+
+#login-button {
+    background-color: #405de6;
+    color: azure;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+p, a {
+    font-size: small;
 }
