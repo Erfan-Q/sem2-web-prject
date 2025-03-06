@@ -1,0 +1,25 @@
+* {
+    margin: 3px;
+}
+
+#mainHolder {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#instagram_logo {
+    max-width: 150px;
+}
