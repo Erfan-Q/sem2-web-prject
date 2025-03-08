@@ -1,0 +1,66 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("vazir-font/Vazir-Thin.eot");
+    src: url("vazir-font/Vazir-Thin.woff") format("woff"),
+      url("vazir-font/Vazir-Thin.ttf") format("ttf"),
+      url("vazir-font/Vazir-Thin.woff2") format("woff2");
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #f1f5f8;
+    font-family: vazir;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.grid-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 20px;
+}
+
+#mainHolder {
+    padding: 20px;
+}
+
+.image {
+    height: 70px;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 0px solid #000;
+    border-radius: 20px;
+    width: 270px;
+    padding: 15px;
+}
+
+.text {
+    justify-content: center;
+}
+
+.title-text {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.des-text {
+    font-weight: 300;
+    font-size: 0.9em;
+}
